@@ -58,5 +58,395 @@
     "id": 12,
     "question": "A host running three VMs becomes very slow. Which resource measurements should guide troubleshooting?",
     "answer": "Check host and guest RAM usage, swapping, CPU saturation and scheduling, storage I/O latency, and virtualization features. Reduce overcommitment or VM allocations where appropriate and increase memory, CPU capacity, or SSD performance only based on observed bottlenecks."
+  },
+  {
+    "id": 13,
+    "question": "Laptop receives 169.254 address after moving office",
+    "answer": "Check network link, DHCP server/scope, VLAN and relay; renew lease and verify gateway/DNS."
+  },
+  {
+    "id": 14,
+    "question": "A PC can ping 8.8.8.8 but cannot open a website by name",
+    "answer": "Test DNS with nslookup, inspect assigned resolver and cache; repair resolution, not the router."
+  },
+  {
+    "id": 15,
+    "question": "A printer responds by IP but not by hostname",
+    "answer": "Verify DNS or local name resolution, registered address, and DNS server settings."
+  },
+  {
+    "id": 16,
+    "question": "Two PCs on a switch cannot ping each other",
+    "answer": "Check subnet addresses, VLANs, endpoint firewalls and switch port link status."
+  },
+  {
+    "id": 17,
+    "question": "Local file shares work but the internet does not",
+    "answer": "Check default gateway, WAN reachability, routing and DNS as separate tests."
+  },
+  {
+    "id": 18,
+    "question": "Video calls drop whenever a microwave runs nearby",
+    "answer": "Test 2.4 GHz interference; try 5 GHz, adjust placement or channels."
+  },
+  {
+    "id": 19,
+    "question": "An AP has strong signal but clients get poor throughput",
+    "answer": "Check channel congestion, retransmissions, uplink capacity and number of clients."
+  },
+  {
+    "id": 20,
+    "question": "A wireless device sees the SSID but cannot authenticate",
+    "answer": "Confirm security mode/password, enterprise credentials if used and allowed clients."
+  },
+  {
+    "id": 21,
+    "question": "Wi-Fi works in a hallway but not in a conference room",
+    "answer": "Survey signal strength and obstructions; adjust AP placement and channel planning."
+  },
+  {
+    "id": 22,
+    "question": "Guests can browse internal office files over guest Wi-Fi",
+    "answer": "Correct VLAN isolation and access controls while keeping guest internet access."
+  },
+  {
+    "id": 23,
+    "question": "A PoE security camera has data link but no power",
+    "answer": "Check PoE capability, switch power budget, cable and device wattage requirements."
+  },
+  {
+    "id": 24,
+    "question": "Two PCs report an address conflict",
+    "answer": "Identify duplicate IP allocation and fix static assignments or DHCP reservations."
+  },
+  {
+    "id": 25,
+    "question": "Clients on one VLAN get DHCP but another VLAN does not",
+    "answer": "Check DHCP relay, scope, trunk tagging and VLAN gateway."
+  },
+  {
+    "id": 26,
+    "question": "New DHCP clients receive an incorrect DNS resolver",
+    "answer": "Correct DHCP options and renew client leases; check for rogue DHCP."
+  },
+  {
+    "id": 27,
+    "question": "A PC cannot reach its gateway but can ping localhost",
+    "answer": "Loopback proves only the local stack; test cable, NIC, subnet and gateway."
+  },
+  {
+    "id": 28,
+    "question": "A conventional IPv4 subnet must accommodate 50 hosts",
+    "answer": "Use /26: 64 total addresses, 62 usable; mask 255.255.255.192."
+  },
+  {
+    "id": 29,
+    "question": "Find network and broadcast for 192.168.1.70/26",
+    "answer": "Network .64, broadcast .127, usable hosts .65 through .126."
+  },
+  {
+    "id": 30,
+    "question": "A router forwards HTTPS to the wrong internal server",
+    "answer": "Review TCP 443 port forward, destination IP reservation and firewall rules."
+  },
+  {
+    "id": 31,
+    "question": "IPv4 browsing works but IPv6-only service fails",
+    "answer": "Check IPv6 address, prefix, route, DNS AAAA and upstream connectivity."
+  },
+  {
+    "id": 32,
+    "question": "An ISP sells 1 Gbps service but a download stays at 40 Mbps",
+    "answer": "Distinguish capacity from throughput; isolate server, Wi-Fi, NIC and congestion limits."
+  },
+  {
+    "id": 33,
+    "question": "A call sounds robotic despite a high bandwidth test",
+    "answer": "Measure jitter, packet loss and latency; evaluate QoS and wireless contention."
+  },
+  {
+    "id": 34,
+    "question": "An admin uses Telnet to configure a switch remotely",
+    "answer": "Use SSH for encrypted administration; restrict and disable Telnet where possible."
+  },
+  {
+    "id": 35,
+    "question": "An SMB file share is reachable by IP but not server name",
+    "answer": "Troubleshoot name resolution separately from SMB TCP 445 and access permissions."
+  },
+  {
+    "id": 36,
+    "question": "A switch exposes SNMP on UDP 161",
+    "answer": "Confirm intended management; restrict access and prefer authenticated encrypted SNMPv3."
+  },
+  {
+    "id": 37,
+    "question": "Domain logins intermittently fail on PCs with wrong time",
+    "answer": "Verify NTP reachability and synchronization to approved time sources."
+  },
+  {
+    "id": 38,
+    "question": "A VPN user connects but cannot resolve internal hostnames",
+    "answer": "Inspect VPN DNS settings, DNS suffix, internal resolver and split-tunnel routes."
+  },
+  {
+    "id": 39,
+    "question": "A home has one SSID for staff and another for guests",
+    "answer": "Configure distinct secured SSIDs and isolate guest VLAN from trusted devices."
+  },
+  {
+    "id": 40,
+    "question": "A new Ethernet run negotiates 100 Mbps instead of 1 Gbps",
+    "answer": "Test all copper pairs, connectors, length and speed negotiation; replace bad termination."
+  },
+  {
+    "id": 41,
+    "question": "A patch panel has an unlabeled cable to identify",
+    "answer": "Use a toner and probe or cable mapper, then label both ends."
+  },
+  {
+    "id": 42,
+    "question": "A Cat6 cable is routed beside noisy electrical machinery",
+    "answer": "Evaluate electromagnetic interference and reroute cabling; retest link errors."
+  },
+  {
+    "id": 43,
+    "question": "A 100-meter copper run must support 10Gb Ethernet",
+    "answer": "Use compliant Cat6a components and compatible 10GBASE-T ports; certify channel."
+  },
+  {
+    "id": 44,
+    "question": "Two buildings need a long network connection",
+    "answer": "Consider fiber for distance and electrical isolation; match optics to cable type."
+  },
+  {
+    "id": 45,
+    "question": "A patched LC fiber uplink stays dark",
+    "answer": "Check polarity, transceivers, fiber type, cleanliness and link budget safely."
+  },
+  {
+    "id": 46,
+    "question": "A moved desktop gives no lights or fans",
+    "answer": "Check outlet, cord, PSU switch and power connections before replacing components."
+  },
+  {
+    "id": 47,
+    "question": "A graphics workstation shuts down under heavy GPU use",
+    "answer": "Inspect PSU rating and cables, GPU thermals and cooling; stop if burning smell."
+  },
+  {
+    "id": 48,
+    "question": "A PSU has a manual 115/230V selector after relocation",
+    "answer": "Disconnect power and verify correct supported local AC input before turning on."
+  },
+  {
+    "id": 49,
+    "question": "CPU fails to initialize though motherboard 24-pin is connected",
+    "answer": "Verify the EPS CPU power connector, POST lights and component seating."
+  },
+  {
+    "id": 50,
+    "question": "A new SATA HDD is invisible even to firmware",
+    "answer": "Check separate SATA power and data cables, ports and drive detection."
+  },
+  {
+    "id": 51,
+    "question": "A physically fitting M.2 SSD is not found",
+    "answer": "Check PCIe/NVMe versus SATA slot support, slot sharing, installation and UEFI."
+  },
+  {
+    "id": 52,
+    "question": "An SSD is detected in BIOS but Windows will not start",
+    "answer": "Check boot order, bootloader and filesystem; back up data before major repairs."
+  },
+  {
+    "id": 53,
+    "question": "An HDD clicks repeatedly and SMART indicates failure",
+    "answer": "Back up what is recoverable safely and replace drive; avoid unnecessary stress."
+  },
+  {
+    "id": 54,
+    "question": "An SSD slows badly when nearly full",
+    "answer": "Check free space, temperature, health, firmware and workload; check TRIM support."
+  },
+  {
+    "id": 55,
+    "question": "Half of installed memory appears in BIOS",
+    "answer": "Reseat compatible modules, test sticks/slots and verify board capacity."
+  },
+  {
+    "id": 56,
+    "question": "A 32-bit OS cannot use 8 GB RAM",
+    "answer": "Explain address-space limits; verify hardware and migrate to supported 64-bit OS."
+  },
+  {
+    "id": 57,
+    "question": "A customer buys DDR5 for a DDR4-only motherboard",
+    "answer": "Explain mechanical/electrical incompatibility and choose supported RAM."
+  },
+  {
+    "id": 58,
+    "question": "A PC becomes unstable after mixing memory kits",
+    "answer": "Test supported memory speed/timings and run diagnostics module by module."
+  },
+  {
+    "id": 59,
+    "question": "ECC event logs identify repeated errors in DIMM B2",
+    "answer": "Correlate slot and diagnostics, test module and replace it if confirmed faulty."
+  },
+  {
+    "id": 60,
+    "question": "A motherboard RAM diagnostic light stays on",
+    "answer": "Try known-good supported RAM, reseat and verify slots/CPU power."
+  },
+  {
+    "id": 61,
+    "question": "A full-length PCIe x16 slot reports only four active lanes",
+    "answer": "Check electrical slot wiring and shared PCIe lane configuration in motherboard manual."
+  },
+  {
+    "id": 62,
+    "question": "A PCIe 3.0 GPU is installed in a PCIe 4.0 slot",
+    "answer": "Expect backward-compatible negotiation at supported generation and width."
+  },
+  {
+    "id": 63,
+    "question": "A client needs two SSDs with one-drive fault tolerance",
+    "answer": "Configure RAID 1 mirroring and maintain a separate backup."
+  },
+  {
+    "id": 64,
+    "question": "One disk fails in a four-drive RAID 5 array",
+    "answer": "Replace failed member per procedure, verify rebuild, monitor for additional errors."
+  },
+  {
+    "id": 65,
+    "question": "Two members fail in a RAID 6 array",
+    "answer": "RAID 6 tolerates two failures; protect data and restore redundancy urgently."
+  },
+  {
+    "id": 66,
+    "question": "One drive fails in a RAID 0 stripe",
+    "answer": "RAID 0 has no parity or mirror; restore from backup if array cannot be recovered."
+  },
+  {
+    "id": 67,
+    "question": "A laptop slows after a few minutes of heavy use",
+    "answer": "Measure temperatures and thermal throttling; inspect vents, fans and heatsink."
+  },
+  {
+    "id": 68,
+    "question": "A CPU heats immediately after a cooler replacement",
+    "answer": "Check contact, mounting pressure, paste, fan connection and protective film."
+  },
+  {
+    "id": 69,
+    "question": "A liquid-cooled CPU overheats even while fans spin",
+    "answer": "Check pump function, cold plate contact, air locks and radiator airflow."
+  },
+  {
+    "id": 70,
+    "question": "A computer gets loud only while exporting video",
+    "answer": "Compare CPU/GPU load and temperature; inspect fan bearings and airflow."
+  },
+  {
+    "id": 71,
+    "question": "A motherboard clock resets each time the PC is unplugged",
+    "answer": "Check and replace RTC battery safely, then restore time and settings."
+  },
+  {
+    "id": 72,
+    "question": "A second video card causes a PC not to POST",
+    "answer": "Remove it to isolate, inspect seating, PSU connectors and compatibility."
+  },
+  {
+    "id": 73,
+    "question": "One of two identical monitors stays black",
+    "answer": "Check input source, monitor power, display mode, cables and graphics outputs."
+  },
+  {
+    "id": 74,
+    "question": "A display looks fuzzy at 1280x720 on a 1080p panel",
+    "answer": "Use native resolution and check scaling, cable and graphics settings."
+  },
+  {
+    "id": 75,
+    "question": "Toner rubs off a laser-printed page",
+    "answer": "Check fuser heat/operation and paper media setting; service after safe cool-down."
+  },
+  {
+    "id": 76,
+    "question": "Repeated faint images appear down laser printer pages",
+    "answer": "Investigate drum, fuser and toner transfer; use repeating-defect spacing."
+  },
+  {
+    "id": 77,
+    "question": "Inkjet print has missing cyan lines",
+    "answer": "Perform nozzle check/cleaning and verify cyan cartridge and ink supply."
+  },
+  {
+    "id": 78,
+    "question": "A thermal receipt printer prints blank receipts",
+    "answer": "Confirm thermal paper orientation, correct paper type and printhead condition."
+  },
+  {
+    "id": 79,
+    "question": "A network printer is marked offline for everyone",
+    "answer": "Check power, IP address, network path, spooler and queue configuration."
+  },
+  {
+    "id": 80,
+    "question": "A phone battery expands and lifts the screen",
+    "answer": "Stop charging or using, avoid pressure/puncture and obtain safe professional service."
+  },
+  {
+    "id": 81,
+    "question": "An external GPU dock fails in a USB-C-only laptop",
+    "answer": "Verify actual Thunderbolt or USB4 PCIe tunneling; connector shape isn't enough."
+  },
+  {
+    "id": 82,
+    "question": "An SD card reader remains invisible after building a desktop",
+    "answer": "Check USB header cable, drivers, device detection and a known-good card."
+  },
+  {
+    "id": 83,
+    "question": "An artist needs a pen on a laptop without a touchscreen",
+    "answer": "Use an external drawing tablet/digitizer, not a generic capacitive stylus."
+  },
+  {
+    "id": 84,
+    "question": "Three running VMs make the host swap heavily",
+    "answer": "Assess CPU and RAM overcommit; reduce allocation or add RAM and verify VT-x/AMD-V."
+  },
+  {
+    "id": 85,
+    "question": "A VM has no LAN even though host network works",
+    "answer": "Inspect virtual NIC, switch/bridge/NAT mode, guest address and firewall."
+  },
+  {
+    "id": 86,
+    "question": "A developer wants to undo changes made in a test VM",
+    "answer": "Use a snapshot for short-term rollback, but preserve separate backups."
+  },
+  {
+    "id": 87,
+    "question": "A company wants web-based email without running servers",
+    "answer": "Choose SaaS; provider maintains service, customer manages accounts and data."
+  },
+  {
+    "id": 88,
+    "question": "A team needs rented virtual servers to install its own OS",
+    "answer": "Use IaaS and secure/patch guest OS and applications."
+  },
+  {
+    "id": 89,
+    "question": "A developer wants managed app deployment without OS maintenance",
+    "answer": "Use PaaS while retaining app and data responsibility."
+  },
+  {
+    "id": 90,
+    "question": "A video call works on wired Ethernet but freezes on Wi-Fi",
+    "answer": "Compare latency, packet loss, interference and Wi-Fi roaming with wired baseline."
   }
 ]
