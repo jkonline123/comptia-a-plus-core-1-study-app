@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "A laptop has 169.254.42.17 with a /16 mask and cannot reach its usual network resources. Walk through a safe investigation.",
+    "answer": "The link-local address suggests the client did not get its expected DHCP lease. Check Wi-Fi/Ethernet connectivity, adapter status, and whether other clients get leases; then verify DHCP server, scope, VLAN, and relay as applicable. After addressing the cause, renew the DHCP lease and verify address, gateway, DNS, and connectivity."
+  },
+  {
+    "id": 2,
+    "question": "A user can ping a public IP but cannot access a website by its domain name. Explain how to isolate the problem.",
+    "answer": "IP connectivity may be working but name resolution is failing. Inspect assigned DNS servers, use nslookup against the configured resolver, compare another resolver, check local hosts/cache as needed, and correct DNS settings or service before retesting."
+  },
+  {
+    "id": 3,
+    "question": "A workstation reaches devices in its subnet but cannot communicate with a server on another subnet. Diagnose the routing path.",
+    "answer": "Verify IP address, subnet mask, and default gateway with ipconfig. Ping the local gateway, inspect routing and VLAN configuration, and verify the router or Layer 3 switch has routes and permits traffic to the destination. Test remote connectivity again."
+  },
+  {
+    "id": 4,
+    "question": "A small office must separate guest Wi-Fi devices from employee PCs while using the same switching equipment. Describe a suitable design.",
+    "answer": "Use distinct VLANs and SSIDs mapped to the correct VLANs through the access points and switch ports. Configure separate IP subnets and DHCP scopes, route through a controlled gateway, and restrict guest access to internal resources with firewall/ACL rules."
+  },
+  {
+    "id": 5,
+    "question": "Five matching 2 TB drives are available. Design RAID 5 capacity and explain its failure tolerance.",
+    "answer": "RAID 5 needs at least three drives and uses distributed parity. With five equal 2 TB drives, conventional usable capacity is (5−1)×2=8 TB before filesystem overhead. It tolerates one drive failure, not two, and still requires a separate backup."
+  },
+  {
+    "id": 6,
+    "question": "A PC starts fans but displays nothing after an extra RAM module is installed. Describe isolation steps.",
+    "answer": "Power down and disconnect power, verify the module is compatible and fully seated, and test with the previous known-good configuration. Use diagnostic LEDs or beep codes where present, test one module/slot at a time, and confirm firmware and memory configuration."
+  },
+  {
+    "id": 7,
+    "question": "A new SATA hard drive is not detected. The data cable is attached but the power connector is not. What should you do?",
+    "answer": "Shut down and disconnect power, attach the correct SATA power connector, verify the SATA data connection, then restart and confirm detection in UEFI and the operating system. Avoid formatting until you know whether the drive contains needed data."
+  },
+  {
+    "id": 8,
+    "question": "A desktop runs cool at idle but powers down during a graphics workload and smells electrically burnt. Outline safe next steps.",
+    "answer": "Stop using the system, switch it off and disconnect power. Do not open the PSU enclosure. Inspect externally accessible power connections and visible components only after safe shutdown; have a qualified technician replace/test suspect PSU hardware and check GPU power and cooling. Do not stress-test a system with signs of burning."
+  },
+  {
+    "id": 9,
+    "question": "A laser printer produces pages where toner wipes off immediately. Identify likely subsystem and checks.",
+    "answer": "Check the fuser assembly and relevant media type/temperature settings: a fuser bonds toner to paper with heat and pressure. Follow manufacturer servicing procedures and allow high-temperature parts to cool before inspection."
+  },
+  {
+    "id": 10,
+    "question": "A laptop has a USB-C socket, and a user wants a Thunderbolt external graphics enclosure. How can you verify compatibility?",
+    "answer": "USB-C describes the connector, not guaranteed Thunderbolt functionality. Consult the exact laptop specifications and Thunderbolt/USB4 support details, confirm compatible cables and enclosure requirements, and verify system firmware and supported drivers."
+  },
+  {
+    "id": 11,
+    "question": "An access point on 2.4 GHz delivers unreliable service in a busy office. Plan a simple wireless survey.",
+    "answer": "Measure signal and channel use at problem locations, note barriers and interference, and review AP placement and transmit power. Where possible choose 20 MHz channels 1, 6, or 11 and move capable clients to a suitable 5 GHz band; retest throughput and reliability."
+  },
+  {
+    "id": 12,
+    "question": "A host running three VMs becomes very slow. Which resource measurements should guide troubleshooting?",
+    "answer": "Check host and guest RAM usage, swapping, CPU saturation and scheduling, storage I/O latency, and virtualization features. Reduce overcommitment or VM allocations where appropriate and increase memory, CPU capacity, or SSD performance only based on observed bottlenecks."
+  }
+]

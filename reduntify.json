@@ -1,0 +1,3621 @@
+[
+  {
+    "id": 1,
+    "plain": "Two or more connected devices that communicate and share resources.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 2,
+    "plain": "A local area network covering a home, office, or other small area.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 3,
+    "plain": "A wide area network linking distant networks, such as the internet.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 4,
+    "plain": "A local area network that uses Wi-Fi.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 5,
+    "plain": "A short-range personal area network, such as Bluetooth headphones and a phone.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 6,
+    "plain": "A metropolitan area network spanning a city.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 7,
+    "plain": "A high-speed specialized network that connects servers to storage.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 8,
+    "plain": "Small office or home office networking environment.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 9,
+    "plain": "A connected device or point on a network.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 10,
+    "plain": "A device communicating on an IP network.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 11,
+    "plain": "Software or device requesting a service.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 12,
+    "plain": "Computer or software that provides a service to clients.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 13,
+    "plain": "Devices share resources directly, without needing a central server.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 14,
+    "plain": "Clients request resources from centralized servers.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 15,
+    "plain": "A private network for an organization.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 16,
+    "plain": "A private network that grants selected access to authorized outsiders.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 17,
+    "plain": "A family of wired network technologies defined by IEEE 802.3.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 18,
+    "plain": "The maximum theoretical data-carrying capacity of a connection.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 19,
+    "plain": "The amount of data actually transferred per second.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 20,
+    "plain": "Delay for data to travel between endpoints.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 21,
+    "plain": "Variation in the time it takes packets to arrive.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 22,
+    "plain": "Packets fail to arrive at their destination.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 23,
+    "plain": "Whether communication can occur in both directions simultaneously.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 24,
+    "plain": "Can send and receive, but not at the same time.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 25,
+    "plain": "Can send and receive at the same time.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 26,
+    "plain": "Network area where simultaneous transmissions might interfere.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 27,
+    "plain": "Group of devices receiving the same Layer 2 broadcasts.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 28,
+    "plain": "Hardware-level network interface identifier used for local delivery.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 29,
+    "plain": "Institute of Electrical and Electronics Engineers; publishes 802.11 and 802.3 standards.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 30,
+    "plain": "Organization developing many internet protocols and RFC standards.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 31,
+    "plain": "A traffic director between separate IP neighborhoods.",
+    "example": "A laptop sends traffic from the home LAN to a public website through its gateway.",
+    "challenge": "What device forwards packets from one IP network to another?",
+    "curated": true
+  },
+  {
+    "id": 32,
+    "plain": "A local delivery system that learns which MAC address lives on which port.",
+    "example": "Several wired PCs exchange data through a switch without going out to the ISP.",
+    "challenge": "Which device forwards local Ethernet frames using learned MAC addresses?",
+    "curated": true
+  },
+  {
+    "id": 33,
+    "plain": "Lets wireless clients join a network using Wi-Fi.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 34,
+    "plain": "Connects premises to an internet service using cable, DSL, or other technology.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 35,
+    "plain": "The next-hop exit door from the local subnet.",
+    "example": "A computer can print locally but cannot reach IP addresses on other networks.",
+    "challenge": "Which setting identifies the router for off-subnet destinations?",
+    "curated": true
+  },
+  {
+    "id": 36,
+    "plain": "Configurable switch supporting options such as VLANs and monitoring.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 37,
+    "plain": "Basic plug-and-play network switch.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 38,
+    "plain": "A switch that can also route IP traffic.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 39,
+    "plain": "Older device that repeats traffic to all other ports.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 40,
+    "plain": "Regenerates signals to extend their reach.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 41,
+    "plain": "Connects network segments and forwards frames using MAC addresses.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 42,
+    "plain": "Enforces rules that allow or deny network traffic.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 43,
+    "plain": "Network interface card that connects a computer to a network.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 44,
+    "plain": "Passive panel used to organize and terminate cables.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 45,
+    "plain": "Power over Ethernet: electrical power plus data on Ethernet cables.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 46,
+    "plain": "Adds power to an Ethernet connection for a compatible device.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 47,
+    "plain": "Switch supplying power to compatible Ethernet devices.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 48,
+    "plain": "Optical network terminal connecting a premises to fiber service.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 49,
+    "plain": "Provides internet access using cable TV infrastructure and DOCSIS.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 50,
+    "plain": "Connects to broadband service over telephone wiring.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 51,
+    "plain": "Intrusion detection system: monitors and alerts on suspicious activity.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 52,
+    "plain": "Intrusion prevention system: monitors and can block suspicious activity.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 53,
+    "plain": "Distributes incoming traffic among servers.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 54,
+    "plain": "Intermediary server acting on a client's behalf.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 55,
+    "plain": "Network-attached storage providing shared files over the network.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 56,
+    "plain": "Transmits bits as physical electrical, radio, or optical signals.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 57,
+    "plain": "Handles local frames and MAC addressing; switches operate here.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 58,
+    "plain": "Handles logical IP addressing and routing.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 59,
+    "plain": "Handles end-to-end transport such as TCP and UDP ports.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 60,
+    "plain": "Establishes and manages sessions between applications.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 61,
+    "plain": "Handles data formatting, encoding, and encryption concepts.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 62,
+    "plain": "Provides services such as HTTP, DNS, and SMTP to applications.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 63,
+    "plain": "Adding protocol headers as data moves through networking layers.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 64,
+    "plain": "Layer 2 unit used for local Ethernet delivery.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 65,
+    "plain": "Layer 3 unit containing IP addressing information.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 66,
+    "plain": "A unit of data at the TCP transport layer.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 67,
+    "plain": "Binary ones and zeros transmitted over a medium.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 68,
+    "plain": "Four-layer practical model: application, transport, internet, network access.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 69,
+    "plain": "Wireless LAN networking based on IEEE 802.11 standards.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 70,
+    "plain": "IEEE family of wireless LAN standards.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 71,
+    "plain": "Older 5 GHz Wi-Fi standard supporting up to 54 Mbps.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 72,
+    "plain": "Older 2.4 GHz Wi-Fi standard supporting up to 11 Mbps.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 73,
+    "plain": "2.4 GHz Wi-Fi standard supporting up to 54 Mbps.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 74,
+    "plain": "Wi-Fi 4; supports 2.4 and 5 GHz and uses MIMO.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 75,
+    "plain": "Wi-Fi 5; operates on 5 GHz.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 76,
+    "plain": "Wi-Fi 6/6E; improves wireless efficiency; 6E adds 6 GHz.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 77,
+    "plain": "Wi-Fi 7; includes multi-link operation and 6 GHz support.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 78,
+    "plain": "Longer practical range and greater wall penetration; often congested.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 79,
+    "plain": "Usually offers more capacity with shorter practical range.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 80,
+    "plain": "Wi-Fi band with additional channel capacity for compatible devices.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 81,
+    "plain": "The wireless network name a phone shows in its Wi-Fi list.",
+    "example": "You choose CoffeeShop-Guest from a list of nearby networks.",
+    "challenge": "Is the displayed Wi-Fi network name the SSID or the BSSID?",
+    "curated": true
+  },
+  {
+    "id": 82,
+    "plain": "Identifier of a particular Wi-Fi basic service set, typically a MAC address.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 83,
+    "plain": "A frequency slice used for Wi-Fi communication.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 84,
+    "plain": "Interference when networks use overlapping frequencies.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 85,
+    "plain": "Common nonoverlapping 20 MHz Wi-Fi channels.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 86,
+    "plain": "Multiple-input multiple-output: uses multiple antennas.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 87,
+    "plain": "Multiuser MIMO: wireless communication with several clients more efficiently.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 88,
+    "plain": "Splits wireless channel resources among multiple clients.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 89,
+    "plain": "Directs radio signal energy more effectively toward clients.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 90,
+    "plain": "Devices communicate directly without a traditional access point.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 91,
+    "plain": "Wireless clients connect through an access point.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 92,
+    "plain": "Interconnected wireless nodes extend coverage.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 93,
+    "plain": "Web sign-in or terms page before joining public internet service.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 94,
+    "plain": "Wi-Fi Protected Access 2, commonly using AES-CCMP.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 95,
+    "plain": "Newer Wi-Fi security standard with stronger authentication protections.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 96,
+    "plain": "Insecure legacy wireless security standard.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 97,
+    "plain": "Legacy predecessor of WPA2.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 98,
+    "plain": "Pre-shared key: a shared network security secret.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 99,
+    "plain": "Wi-Fi Protected Setup, simplifies joining but PIN mode can be insecure.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 100,
+    "plain": "Survey of signal strength, interference, and access point locations.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 101,
+    "plain": "Logical network address used to route packets.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 102,
+    "plain": "A 32-bit address written as four decimal numbers separated by dots.",
+    "example": "192.168.1.20 is assigned to a laptop on a private LAN.",
+    "challenge": "What IP version uses four octets instead of hexadecimal groups?",
+    "curated": true
+  },
+  {
+    "id": 103,
+    "plain": "A 128-bit address written in hexadecimal groups.",
+    "example": "A device displays an address beginning 2001:db8: instead of four dotted numbers.",
+    "challenge": "Which IP version provides much larger addresses and does not use broadcast?",
+    "curated": true
+  },
+  {
+    "id": 104,
+    "plain": "Eight bits; one IPv4 address part ranges from 0 to 255.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 105,
+    "plain": "A binary digit, either zero or one.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 106,
+    "plain": "A logical subdivision of an IP network.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 107,
+    "plain": "The boundary line telling a device which bits describe its network.",
+    "example": "A host is 192.168.1.70 with a /26 mask and belongs to the .64 subnet.",
+    "challenge": "What tells a host whether an IP is local or should go through a gateway?",
+    "curated": true
+  },
+  {
+    "id": 108,
+    "plain": "Slash notation indicating prefix length, such as /24.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 109,
+    "plain": "Address identifying a subnet with all host bits set to zero.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 110,
+    "plain": "IPv4 address with all host bits set to one.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 111,
+    "plain": "Conventional address available for assignment to a device.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 112,
+    "plain": "IP address intended to be globally routable.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 113,
+    "plain": "Reserved internal ranges: 10/8, 172.16/12, 192.168/16.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 114,
+    "plain": "Automatic link-local IPv4 address in 169.254/16, often after DHCP failure.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 115,
+    "plain": "An address that refers back to the local machine: 127.0.0.1 or ::1.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 116,
+    "plain": "Manually assigned IP address.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 117,
+    "plain": "IP address assigned automatically, often using DHCP.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 118,
+    "plain": "Network address translation changes IP address information.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 119,
+    "plain": "Port address translation lets many devices share a public IPv4 address.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 120,
+    "plain": "Discovers the MAC address for a local IPv4 address.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 121,
+    "plain": "Internet Control Message Protocol; supports diagnostics such as ping.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 122,
+    "plain": "IP address used for direct local-link communication.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 123,
+    "plain": "IPv6 stateless address autoconfiguration through router advertisements.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 124,
+    "plain": "Phone book for network names: it finds the address associated with a hostname.",
+    "example": "A browser reaches 8.8.8.8 but cannot resolve example.com; test name resolution.",
+    "challenge": "Which service is the best first suspect when IP reachability works but hostnames fail?",
+    "curated": true
+  },
+  {
+    "id": 125,
+    "plain": "The computer or service that answers or processes naming requests.",
+    "example": "Users cannot look up hostnames, but their internet path otherwise works.",
+    "challenge": "Which server role resolves or forwards requests about domain names?",
+    "curated": true
+  },
+  {
+    "id": 126,
+    "plain": "Looks up DNS answers on behalf of a client.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 127,
+    "plain": "Temporarily stored DNS query results.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 128,
+    "plain": "Maps a domain hostname to an IPv4 address.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 129,
+    "plain": "Maps a domain hostname to an IPv6 address.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 130,
+    "plain": "Alias pointing one DNS hostname to another.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 131,
+    "plain": "Identifies mail exchangers receiving email for a domain.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 132,
+    "plain": "Stores text data for domain verification and policies.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 133,
+    "plain": "Email authentication specifying permitted sending servers.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 134,
+    "plain": "Email authentication using digital signatures.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 135,
+    "plain": "Email authentication policies using SPF and DKIM alignment.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 136,
+    "plain": "The automatic address-assignment desk for a network.",
+    "example": "A new laptop joins the office Wi-Fi and receives an address, gateway, and DNS settings.",
+    "challenge": "A PC receives 169.254.1.9; what service or path should you investigate?",
+    "curated": true
+  },
+  {
+    "id": 137,
+    "plain": "Pool or range of available DHCP addresses.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 138,
+    "plain": "Temporary assigned IP address with a lifetime.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 139,
+    "plain": "Consistently provides an IP address to a specified client.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 140,
+    "plain": "Address kept out of the dynamic DHCP pool.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 141,
+    "plain": "Discover, Offer, Request, Acknowledge address assignment sequence.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 142,
+    "plain": "Server passing DNS queries to another resolver.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 143,
+    "plain": "Server providing shared access to files.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 144,
+    "plain": "Server managing printer access and jobs.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 145,
+    "plain": "Server serving web pages and applications.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 146,
+    "plain": "Server sending, receiving, or storing email.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 147,
+    "plain": "System validating users or devices for access.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 148,
+    "plain": "Central destination for system and network logs.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 149,
+    "plain": "Helps devices synchronize their clocks.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 150,
+    "plain": "Centralized network authentication, authorization, accounting.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 151,
+    "plain": "Virtual LAN logically separating Layer 2 networks.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 152,
+    "plain": "Protected tunnel over another network, often the internet.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 153,
+    "plain": "Routes incoming traffic to a selected internal host and port.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 154,
+    "plain": "Quality of service: manages or prioritizes traffic.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 155,
+    "plain": "Allows devices to discover services and sometimes open router mappings.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 156,
+    "plain": "Reliable ordered connection-oriented transport protocol.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 157,
+    "plain": "Connectionless transport without built-in reliability or ordering.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 158,
+    "plain": "Identifies a transport endpoint or service.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 159,
+    "plain": "SYN, SYN-ACK, ACK establishes a TCP connection.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 160,
+    "plain": "Secure HTTP using TLS, usually TCP 443.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 161,
+    "plain": "Security protocol providing encryption and authentication.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 162,
+    "plain": "Obsolete predecessor of TLS.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 163,
+    "plain": "Encrypted remote administration, TCP port 22.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 164,
+    "plain": "Unencrypted remote terminal access, TCP port 23.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 165,
+    "plain": "Traditional file transfer: control on TCP 21, sometimes data on 20.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 166,
+    "plain": "Secure file transfer over SSH, usually TCP 22.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 167,
+    "plain": "Traditional FTP protected by TLS.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 168,
+    "plain": "Mail transfer and relay, usually TCP 25.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 169,
+    "plain": "Mail retrieval protocol, TCP 110 by default.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 170,
+    "plain": "Access and synchronize server email, TCP 143 by default.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 171,
+    "plain": "File and printer sharing, commonly TCP 445.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 172,
+    "plain": "Remote graphical desktop protocol, port 3389.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 173,
+    "plain": "Directory access protocol, port 389.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 174,
+    "plain": "Network management and monitoring, usually UDP 161.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 175,
+    "plain": "Simple file transfer, UDP 69.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 176,
+    "plain": "Transmits network data as pulses of light.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 177,
+    "plain": "Cable internet data transmission standard family.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 178,
+    "plain": "Broadband delivered over telephone wires.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 179,
+    "plain": "Internet communications using satellites.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 180,
+    "plain": "Mobile internet using cellular networks.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 181,
+    "plain": "Wireless internet service provider.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 182,
+    "plain": "Dedicated provider communication circuit.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 183,
+    "plain": "A basic reachability check using ICMP echo messages.",
+    "example": "A technician tests whether a default gateway responds on the network.",
+    "challenge": "Which command sends ICMP echo requests?",
+    "curated": true
+  },
+  {
+    "id": 184,
+    "plain": "A hop-by-hop view of the route toward a network target.",
+    "example": "Packets reach the first router but time out farther along a route.",
+    "challenge": "Which tool identifies intermediate hops toward the destination?",
+    "curated": true
+  },
+  {
+    "id": 185,
+    "plain": "Windows utility for viewing and managing IP configuration.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 186,
+    "plain": "Utility for querying DNS records.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 187,
+    "plain": "Checks cabling connectivity and wire pairs.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 188,
+    "plain": "Locates cables in wiring bundles.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 189,
+    "plain": "Attaches modular connectors to network cables.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 190,
+    "plain": "Seats individual wires into terminals and jacks.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 191,
+    "plain": "Returns signals to test a port or interface.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 192,
+    "plain": "Measures Wi-Fi networks and channel use.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 193,
+    "plain": "Allows traffic to be copied for monitoring.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 194,
+    "plain": "Tests cable performance against a specified standard.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 195,
+    "plain": "Visual survey showing signal coverage across a space.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 196,
+    "plain": "Main circuit board connecting computer components.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 197,
+    "plain": "Central processing unit; executes instructions and calculations.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 198,
+    "plain": "Motherboard connection that holds a compatible processor.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 199,
+    "plain": "Individual instruction-processing unit inside a CPU.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 200,
+    "plain": "CPU containing two or more processing cores.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 201,
+    "plain": "Processor frequency, usually in gigahertz.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 202,
+    "plain": "Fast memory close to a CPU for frequently used data.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 203,
+    "plain": "Smallest and typically fastest CPU cache.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 204,
+    "plain": "CPU cache generally larger than L1.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 205,
+    "plain": "Larger CPU cache often shared across cores.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 206,
+    "plain": "Traditional firmware that initializes hardware and starts booting.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 207,
+    "plain": "Modern firmware interface replacing legacy BIOS.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 208,
+    "plain": "Power-on self-test of essential hardware during startup.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 209,
+    "plain": "Term associated with legacy motherboard configuration storage.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 210,
+    "plain": "Maintains the real-time clock and certain settings without wall power.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 211,
+    "plain": "Circuitry coordinating communications among system components.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 212,
+    "plain": "Physical size, shape, and layout standard.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 213,
+    "plain": "Common full-size desktop motherboard form factor.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 214,
+    "plain": "Smaller desktop motherboard form factor.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 215,
+    "plain": "Compact motherboard form factor for small systems.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 216,
+    "plain": "Slot for additional hardware such as network or graphics cards.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 217,
+    "plain": "High-speed interface for GPUs, SSDs, and expansion cards.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 218,
+    "plain": "Bidirectional PCI Express signaling connection.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 219,
+    "plain": "PCIe connection with one lane.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 220,
+    "plain": "PCIe connection with four lanes.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 221,
+    "plain": "PCIe connection with eight lanes.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 222,
+    "plain": "PCIe connection with sixteen lanes, often GPUs.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 223,
+    "plain": "Graphics processing unit for rendering and parallel workloads.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 224,
+    "plain": "Graphics hardware built into a processor or system chip.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 225,
+    "plain": "Separate GPU, often on an expansion card.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 226,
+    "plain": "Trusted platform module for cryptographic security capabilities.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 227,
+    "plain": "UEFI check for trusted, digitally signed boot software.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 228,
+    "plain": "The thin interface material filling tiny gaps between chip and cooler.",
+    "example": "A newly installed heatsink has poor contact and an overheated CPU.",
+    "challenge": "What material improves heat transfer at the cooler interface?",
+    "curated": true
+  },
+  {
+    "id": 229,
+    "plain": "Metal part that transfers heat away from components.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 230,
+    "plain": "Moves air across processor cooling hardware.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 231,
+    "plain": "Transfers heat using coolant and a radiator.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 232,
+    "plain": "Operating hardware above rated/default frequency.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 233,
+    "plain": "Temporary volatile working memory used while applications run.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 234,
+    "plain": "Loses stored data when power disappears.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 235,
+    "plain": "Retains data without power.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 236,
+    "plain": "Dynamic RAM needing periodic refreshing.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 237,
+    "plain": "Fast static RAM often used for CPU cache.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 238,
+    "plain": "Double data rate memory transfers data on both clock edges.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 239,
+    "plain": "Earlier common double-data-rate system memory generation.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 240,
+    "plain": "Newer double-data-rate memory generation.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 241,
+    "plain": "Full-size memory module commonly used in desktops.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 242,
+    "plain": "Small outline memory module commonly used in laptops.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 243,
+    "plain": "Memory that can detect and correct certain data errors.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 244,
+    "plain": "RAM without ECC's dedicated error-correction features.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 245,
+    "plain": "Uses two memory channels for greater bandwidth.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 246,
+    "plain": "Delay parameters for memory commands.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 247,
+    "plain": "Delay in cycles between column request and output.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 248,
+    "plain": "Maps application memory and may use storage when RAM is limited.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 249,
+    "plain": "Virtual memory operations involving fixed-size memory pages.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 250,
+    "plain": "Matching supported generation, capacity, form factor and specifications.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 251,
+    "plain": "Hard disk drive stores data on spinning magnetic platters.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 252,
+    "plain": "Solid-state drive stores data in flash memory without moving heads.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 253,
+    "plain": "Serial ATA interface for storage drives.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 254,
+    "plain": "Transfers data between SATA drive and controller.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 255,
+    "plain": "Supplies electrical power to a SATA drive.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 256,
+    "plain": "6 Gb/s SATA signaling generation.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 257,
+    "plain": "Fast storage protocol generally using PCIe.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 258,
+    "plain": "A compact card shape and connector, not automatically NVMe.",
+    "example": "Two similarly sized M.2 drives use different SATA and PCIe protocols.",
+    "challenge": "Why doesn't an M.2 slot automatically guarantee NVMe support?",
+    "curated": true
+  },
+  {
+    "id": 259,
+    "plain": "Solid-state drive connected over PCI Express.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 260,
+    "plain": "Nonvolatile electronic storage used in SSDs and cards.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 261,
+    "plain": "Portable USB-connected flash storage.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 262,
+    "plain": "Secure Digital removable flash memory card.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 263,
+    "plain": "Small form factor SD memory card.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 264,
+    "plain": "Uses a laser to read or write discs.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 265,
+    "plain": "Optical disc commonly holding about 700 MB.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 266,
+    "plain": "Optical disc typically holding 4.7 GB per single layer.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 267,
+    "plain": "Optical media typically holding 25 GB per single layer.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 268,
+    "plain": "Input/output operations completed per second.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 269,
+    "plain": "Hard disk rotations per minute.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 270,
+    "plain": "Speed at which a drive retrieves data.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 271,
+    "plain": "Speed at which a drive stores data.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 272,
+    "plain": "Informs SSD about blocks no longer needed.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 273,
+    "plain": "Storage health monitoring and reporting system.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 274,
+    "plain": "Combines drives for performance and/or fault tolerance.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 275,
+    "plain": "Striping for speed, no redundancy.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 276,
+    "plain": "Mirroring duplicates data across drives.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 277,
+    "plain": "Distributed single parity; survives one drive failure.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 278,
+    "plain": "Dual parity; survives two drive failures.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 279,
+    "plain": "Striping over mirrors; usually needs at least four drives.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 280,
+    "plain": "Standby drive available for RAID failure recovery.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 281,
+    "plain": "Reconstructs array data onto a replacement drive.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 282,
+    "plain": "Calculated information used to reconstruct missing data.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 283,
+    "plain": "Universal serial bus interface for data and power.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 284,
+    "plain": "Common rectangular USB plug.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 285,
+    "plain": "Squarish USB plug found on many printers.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 286,
+    "plain": "Reversible small plug supporting device-dependent features.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 287,
+    "plain": "Older small USB connector common on phones and accessories.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 288,
+    "plain": "Older small USB connector found on some cameras.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 289,
+    "plain": "Up to 480 Mb/s signaling.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 290,
+    "plain": "The USB generation with 5 Gb/s nominal signaling.",
+    "example": "A test asks for the theoretical signaling speed of USB 3.0.",
+    "challenge": "Is the expected answer 480 Mb/s or 5 Gb/s?",
+    "curated": true
+  },
+  {
+    "id": 291,
+    "plain": "10 Gb/s signaling.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 292,
+    "plain": "Newer high-speed USB architecture.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 293,
+    "plain": "A high-speed peripheral interface that can carry PCIe and display traffic.",
+    "example": "A USB-C-shaped laptop port must support an external GPU enclosure.",
+    "challenge": "Why must you verify Thunderbolt capability instead of assuming all USB-C ports support it?",
+    "curated": true
+  },
+  {
+    "id": 294,
+    "plain": "Digital audio/video display interface.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 295,
+    "plain": "Digital computer display interface.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 296,
+    "plain": "Legacy analog video connector.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 297,
+    "plain": "Legacy video connector with digital and sometimes analog variants.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 298,
+    "plain": "Common modular connector on twisted-pair Ethernet cables.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 299,
+    "plain": "Common modular telephone cable connector name.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 300,
+    "plain": "Twisted-pair cable category supporting gigabit Ethernet.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 301,
+    "plain": "Higher-performance twisted-pair Ethernet cable category.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 302,
+    "plain": "Cable category supporting 10 GbE at standard 100-meter runs.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 303,
+    "plain": "Unshielded twisted-pair cable.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 304,
+    "plain": "Shielded twisted-pair cable.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 305,
+    "plain": "Electromagnetic interference disrupting electronic signals.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 306,
+    "plain": "Signal interference between nearby wires or pairs.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 307,
+    "plain": "Shielded cable with a central conductor.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 308,
+    "plain": "Carries data as light through fiber.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 309,
+    "plain": "Fiber optimized for long-distance optical links.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 310,
+    "plain": "Fiber commonly used for shorter fiber links.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 311,
+    "plain": "Compact fiber connector used on many switches.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 312,
+    "plain": "Push-pull fiber-optic connector.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 313,
+    "plain": "Cable meeting fire/smoke rules in certain air-handling areas.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 314,
+    "plain": "Standard twisted-pair conductor wiring schemes.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 315,
+    "plain": "Same Ethernet conductor arrangement on both ends.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 316,
+    "plain": "Transmits and receives pairs crossed for legacy Ethernet uses.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 317,
+    "plain": "Power supply converts AC wall power into required DC voltages.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 318,
+    "plain": "Alternating current changes direction periodically.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 319,
+    "plain": "Direct current flows in one direction.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 320,
+    "plain": "Electric potential difference measured in volts.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 321,
+    "plain": "Flow of electrical charge measured in amperes.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 322,
+    "plain": "Unit of electrical power.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 323,
+    "plain": "Amount of electrical power used or supplied.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 324,
+    "plain": "Power supply efficiency certification family.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 325,
+    "plain": "PSU with some or all detachable power cables.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 326,
+    "plain": "Primary desktop motherboard power connector.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 327,
+    "plain": "4/8-pin connector powering processor circuitry.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 328,
+    "plain": "Provides additional power to expansion hardware.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 329,
+    "plain": "Battery backup that briefly keeps devices powered during outage.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 330,
+    "plain": "Protects against certain transient voltage spikes.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 331,
+    "plain": "Voltage temporarily drops below normal.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 332,
+    "plain": "Complete power failure.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 333,
+    "plain": "Electrostatic discharge that can damage electronics.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 334,
+    "plain": "Safe electrical connection/reference for equipment protection.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 335,
+    "plain": "Accepts multiple mains voltage ranges; switch may be required.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 336,
+    "plain": "Liquid crystal display requiring a backlight.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 337,
+    "plain": "LCD using LEDs as its light source.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 338,
+    "plain": "Self-emissive pixel display technology.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 339,
+    "plain": "LCD panel type with generally good viewing angles.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 340,
+    "plain": "LCD panel type historically known for fast response.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 341,
+    "plain": "LCD panel type often offering strong contrast.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 342,
+    "plain": "Number of display pixels, such as 1920 × 1080.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 343,
+    "plain": "Number of times a display updates per second.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 344,
+    "plain": "Time it takes pixels to change states.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 345,
+    "plain": "Light output of a display, often in nits.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 346,
+    "plain": "Relationship between brightest and darkest output.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 347,
+    "plain": "Light source behind an LCD panel.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 348,
+    "plain": "Pixel that fails to display normally, often black.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 349,
+    "plain": "Pixel or subpixel locked at a color or state.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 350,
+    "plain": "Converts touchscreen or pen input into digital signals.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 351,
+    "plain": "Pen-like tool used with compatible input surfaces.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 352,
+    "plain": "External pen-input pad for drawing on non-touch laptops.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 353,
+    "plain": "Touch surface used to move a pointer.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 354,
+    "plain": "Small keyboard-mounted pointing stick.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 355,
+    "plain": "Camera used for calls and recording.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 356,
+    "plain": "Uses toner and a heated fuser to print pages.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 357,
+    "plain": "Sprays tiny ink droplets onto paper.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 358,
+    "plain": "Uses heat to print, often receipts.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 359,
+    "plain": "Strikes ribbon against paper for printed output.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 360,
+    "plain": "Impact printer that forms characters from pin-made dots.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 361,
+    "plain": "Fine powder used in laser printing.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 362,
+    "plain": "Contains liquid ink for an inkjet printer.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 363,
+    "plain": "Light-sensitive part forming the laser printer toner image.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 364,
+    "plain": "The heat-and-pressure step that bonds laser-printer toner to paper.",
+    "example": "Fresh print rubs off the page when you touch it.",
+    "challenge": "Which laser printer component should you investigate?",
+    "curated": true
+  },
+  {
+    "id": 365,
+    "plain": "Transfers toner image to paper or intermediate belt.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 366,
+    "plain": "Feeds paper into a printer.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 367,
+    "plain": "Printing on both sides of a page.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 368,
+    "plain": "Printing sets of multipage documents in order.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 369,
+    "plain": "Automatic document feeder moves pages through a scanner.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 370,
+    "plain": "Multifunction printer combines printing/scanning/copying.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 371,
+    "plain": "The queue manager that hands print jobs to printers.",
+    "example": "Documents remain stuck in Windows' print queue.",
+    "challenge": "Which software service manages queued print jobs?",
+    "curated": true
+  },
+  {
+    "id": 372,
+    "plain": "List of documents waiting to print.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 373,
+    "plain": "Printer command language used to describe printed pages.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 374,
+    "plain": "Page-description language used by many printers.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 375,
+    "plain": "Adjusting printer alignment or color for accurate output.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 376,
+    "plain": "Replacement roller/fuser components for scheduled service.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 377,
+    "plain": "Faint repeated images appearing on a printed page.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 378,
+    "plain": "Paper stuck in the printer transport path.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 379,
+    "plain": "Unwanted lines on printed pages.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 380,
+    "plain": "Expected printing is absent from output.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 381,
+    "plain": "Portable computing device such as smartphone, laptop, or tablet.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 382,
+    "plain": "Portable computer with built-in keyboard, display and battery.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 383,
+    "plain": "Portable touchscreen-centric computer.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 384,
+    "plain": "Cellular handset with apps and internet connectivity.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 385,
+    "plain": "Subscriber identity module used to authenticate cellular service.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 386,
+    "plain": "Embedded programmable subscriber identity module.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 387,
+    "plain": "Unique identifier for a cellular-capable device.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 388,
+    "plain": "Fourth generation mobile broadband technology.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 389,
+    "plain": "Fifth generation cellular technology with greater capacity.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 390,
+    "plain": "A device shares internet access with nearby clients.",
+    "example": "A laptop uses a phone's cellular plan over Wi-Fi.",
+    "challenge": "What feature is the phone providing?",
+    "curated": true
+  },
+  {
+    "id": 391,
+    "plain": "Sharing mobile internet through USB, Bluetooth, or Wi-Fi.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 392,
+    "plain": "Short-range wireless technology for peripherals.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 393,
+    "plain": "Establishes a trusted connection between Bluetooth devices.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 394,
+    "plain": "Very short-range communication for payments and device interactions.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 395,
+    "plain": "Radio technology used to identify tagged objects.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 396,
+    "plain": "Satellite-based positioning technology.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 397,
+    "plain": "Setting disabling cellular radios and possibly other radios.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 398,
+    "plain": "Determines position using satellites, Wi-Fi or cellular signals.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 399,
+    "plain": "Mobile device management for corporate device security.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 400,
+    "plain": "Bring your own device policy.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 401,
+    "plain": "Corporate owned personally enabled device arrangement.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 402,
+    "plain": "Identity verification through fingerprints or facial features.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 403,
+    "plain": "Authentication required before device use.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 404,
+    "plain": "Connects laptop to monitors, network, USB and power.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 405,
+    "plain": "Makes laptop connectivity ports more accessible.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 406,
+    "plain": "Proprietary connector on certain older Apple mobile devices.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 407,
+    "plain": "Keeps contacts, files and calendars consistent across devices.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 408,
+    "plain": "Limit on data usage in an internet service plan.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 409,
+    "plain": "Rechargeable lithium-ion battery technology.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 410,
+    "plain": "A damaged lithium battery physically expands and becomes unsafe.",
+    "example": "A laptop trackpad lifts as the battery underneath bulges.",
+    "challenge": "Should this device continue charging while you troubleshoot?",
+    "curated": true
+  },
+  {
+    "id": 411,
+    "plain": "Internal hardware providing Wi-Fi or Bluetooth.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 412,
+    "plain": "Connection joining wireless hardware to an antenna.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 413,
+    "plain": "Controls app access to camera, location, microphone and more.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 414,
+    "plain": "Runs isolated virtual computing environments on physical hardware.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 415,
+    "plain": "Software-defined computer with its own guest operating system.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 416,
+    "plain": "Software that creates and manages virtual machines.",
+    "example": "A physical server runs multiple separate guest operating systems.",
+    "challenge": "What software layer coordinates the VMs?",
+    "curated": true
+  },
+  {
+    "id": 417,
+    "plain": "Runs directly on hardware, also called bare-metal.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 418,
+    "plain": "Runs on top of a host operating system.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 419,
+    "plain": "Operating system of the physical host in hosted virtualization.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 420,
+    "plain": "Operating system installed inside a VM.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 421,
+    "plain": "Virtual processor resource assigned to a VM.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 422,
+    "plain": "Host memory allocated to a virtual machine.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 423,
+    "plain": "Virtual storage presented to a VM as a disk.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 424,
+    "plain": "Software-defined network interface of a VM.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 425,
+    "plain": "Software switch interconnecting virtual network interfaces.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 426,
+    "plain": "A capture of a VM state for rollback, not a full backup strategy.",
+    "example": "Before installing a risky update, you save a virtual machine's state.",
+    "challenge": "Which VM feature allows a quick return to that point?",
+    "curated": true
+  },
+  {
+    "id": 427,
+    "plain": "Copy of a virtual machine.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 428,
+    "plain": "Isolated app environment sharing the host OS kernel.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 429,
+    "plain": "Platform for packaging and running containers.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 430,
+    "plain": "Virtual desktop infrastructure hosting desktops centrally.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 431,
+    "plain": "Isolated environment for safer testing.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 432,
+    "plain": "Assigning CPU, RAM, storage and networking to workloads.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 433,
+    "plain": "On-demand network access to shared computing services.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 434,
+    "plain": "Provider-operated cloud services available to many customers.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 435,
+    "plain": "Cloud infrastructure dedicated to one organization.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 436,
+    "plain": "Combined public and private cloud environments.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 437,
+    "plain": "Cloud infrastructure shared by groups with common needs.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 438,
+    "plain": "Infrastructure as a service supplies virtual servers/storage/networks.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 439,
+    "plain": "Platform as a service supplies managed app runtime/platform.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 440,
+    "plain": "Software as a service supplies ready-to-use applications.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 441,
+    "plain": "Desktop as a service provides managed cloud desktops.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 442,
+    "plain": "Adjusts resources as workload demand rises or falls.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 443,
+    "plain": "Ability to handle growth with more resources.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 444,
+    "plain": "Design minimizes downtime through resilient components.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 445,
+    "plain": "Extra components to reduce failure impacts.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 446,
+    "plain": "Tracks cloud consumption for management and billing.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 447,
+    "plain": "Charging according to measured usage.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 448,
+    "plain": "Multiple customers share logically isolated infrastructure.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 449,
+    "plain": "Cloud resources scale up or down quickly.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 450,
+    "plain": "Cloud provider and customer divide security tasks.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 451,
+    "plain": "Remote data storage accessed over network services.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 452,
+    "plain": "Keeps data consistent between multiple locations.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 453,
+    "plain": "Separate restorable copy protecting against loss.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 454,
+    "plain": "Computer fails initial hardware checks at power-on.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 455,
+    "plain": "Power and early hardware checks may work, but the OS does not start.",
+    "example": "The computer finishes POST then reports no bootable device.",
+    "challenge": "Is the failure before or after hardware initialization?",
+    "curated": true
+  },
+  {
+    "id": 456,
+    "plain": "The PC doesn't show expected signs of electrical power.",
+    "example": "A desktop is completely dead: no fans, lights, or reaction.",
+    "challenge": "Which symptom category should be investigated first?",
+    "curated": true
+  },
+  {
+    "id": 457,
+    "plain": "Firmware sounds indicating potential hardware problems.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 458,
+    "plain": "Windows critical stop error screen.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 459,
+    "plain": "Critical OS error preventing normal operation.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 460,
+    "plain": "Hardware temperature exceeds safe operating conditions.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 461,
+    "plain": "The CPU or GPU deliberately slows down to protect itself from heat.",
+    "example": "A CPU's clock rate drops sharply while temperatures climb.",
+    "challenge": "Is the slowdown necessarily a defective CPU, or could protection be active?",
+    "curated": true
+  },
+  {
+    "id": 462,
+    "plain": "Computer turns off without normal shutdown.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 463,
+    "plain": "Computer restarts repeatedly without reaching stable state.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 464,
+    "plain": "Problem occurs unpredictably instead of constantly.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 465,
+    "plain": "Unusual visual corruption, sometimes from video hardware.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 466,
+    "plain": "Faulty RAM operation leading to crashes or corruption.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 467,
+    "plain": "Storage location that cannot reliably read/write data.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 468,
+    "plain": "Abnormal disk clicking that may indicate mechanical failure.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 469,
+    "plain": "Drive self-monitoring indicates possible storage failure.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 470,
+    "plain": "RAID remains online despite member drive loss.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 471,
+    "plain": "Drive RAID metadata unrecognized by active controller.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 472,
+    "plain": "Firmware cannot locate a valid drive or loader to start the OS.",
+    "example": "After replacing a drive, the PC displays 'No bootable device'.",
+    "challenge": "What boot-stage problem is indicated?",
+    "curated": true
+  },
+  {
+    "id": 473,
+    "plain": "Damaged file metadata or structures prevent access.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 474,
+    "plain": "Cable problem interrupts connectivity or power.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 475,
+    "plain": "Intermittently or fully disconnected hardware contact.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 476,
+    "plain": "Internet destinations unreachable.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 477,
+    "plain": "Some network destinations work and others fail.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 478,
+    "plain": "Client cannot obtain automatic IP configuration.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 479,
+    "plain": "Hostname resolution fails, sometimes while direct IP works.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 480,
+    "plain": "Wrong network prefix misidentifies local and remote addresses.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 481,
+    "plain": "Device cannot route traffic to other networks.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 482,
+    "plain": "Two hosts using one address cause network conflicts.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 483,
+    "plain": "Conflicting IP configuration interferes with communication.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 484,
+    "plain": "Other signals disrupt wireless communication.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 485,
+    "plain": "Poor received Wi-Fi signal strength.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 486,
+    "plain": "Excessive Wi-Fi use on overlapping channel resources.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 487,
+    "plain": "Device joins or searches for the wrong Wi-Fi network.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 488,
+    "plain": "Authentication rejected due to wrong secret.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 489,
+    "plain": "Incorrect VLAN tagging or membership blocks connectivity.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 490,
+    "plain": "Ethernet link modes disagree and impair performance.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 491,
+    "plain": "Rules stop traffic on a required TCP/UDP port.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 492,
+    "plain": "Excessive transmission delay.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 493,
+    "plain": "Missing packets result in choppy calls or slow transfers.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 494,
+    "plain": "Connection repeatedly drops and recovers.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 495,
+    "plain": "Internet provider has a network service failure.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 496,
+    "plain": "Submitted print job does not process.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 497,
+    "plain": "Printed output is too light, perhaps low ink or toner.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 498,
+    "plain": "Laser toner is not fused to paper correctly.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 499,
+    "plain": "Lines caused by contaminated or worn printing components.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 500,
+    "plain": "Printed content in wrong portrait/landscape direction.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 501,
+    "plain": "Software converting print jobs into printer instructions.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 502,
+    "plain": "Printer cannot correct alignment or color output.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 503,
+    "plain": "Touchscreen reports input that user did not make.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 504,
+    "plain": "Device battery discharges unusually quickly.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 505,
+    "plain": "Mobile device gets too hot, possibly due to battery or load.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 506,
+    "plain": "Program stops unexpectedly.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 507,
+    "plain": "Device cannot recharge normally.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 508,
+    "plain": "Persistent display marks after uneven pixel wear.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 509,
+    "plain": "Bluetooth pairing or connection does not work.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 510,
+    "plain": "Mobile phone cannot reach cellular network.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 511,
+    "plain": "Gather symptoms, user reports and recent changes.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 512,
+    "plain": "Form a likely explanation of the fault.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 513,
+    "plain": "Check whether your suspected cause is true.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 514,
+    "plain": "Choose safe effective corrective action.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 515,
+    "plain": "Apply targeted repair or setting change.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 516,
+    "plain": "Confirm the original problem is resolved.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  },
+  {
+    "id": 517,
+    "plain": "Record problem, root cause, fix and results.",
+    "example": null,
+    "challenge": null,
+    "curated": false
+  }
+]
