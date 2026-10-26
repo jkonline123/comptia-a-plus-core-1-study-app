@@ -7,7 +7,7 @@ Mobile-first, offline-capable study app for CompTIA A+ Core 1 (220-1201). Not af
 - Reduntify: alternate explanation, reverse retrieval, examples, and application practice
 - Listen & Learn: 3, 5, or 10 repeats using browser speech synthesis, followed by recall
 - Flashcards, multiple-choice quizzes, typed recall, progress tracking and JSON backup/restore
-- 12 original written-response troubleshooting practice scenarios (not official performance-based simulations)
+- 90 original written-response troubleshooting practice scenarios (not official performance-based simulations)
 - No account, analytics, API keys, or server-side data collection
 
 ## Run locally
